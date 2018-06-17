@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">校园跳蚤市场</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="sh">二手水壶，原价50，8成新，现价30</string>
+	<string name="jp">二手键盘，原价300,9成新，现价250</string>
+	<string name="cj">二手茶壶，原价50,8成新，现价35</string>
+	<string name="s">二手书，10块钱一本</string>
+	<string name="s2">二手书，8块钱一本</string>
+	<string name="sb">二手鼠标，原价100，8成新，现价80</string>
+	<string name="qt">二手全套，8成新，现价50</string>
+	<string name="cfj">二手吹风机，7成新，原价70，现价40</string>
+</resources>

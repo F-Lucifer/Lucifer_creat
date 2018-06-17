@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <LinearLayout 
+     	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+           >
+           <!-- 定义一个帧布局 -->
+           <FrameLayout 
+               android:id="@android:id/tabcontent"
+               android:layout_width="match_parent"
+    		   android:layout_height="match_parent"
+               >
+               <!-- 定义水平方向的tabWidget控件，将控件放底部，并设置颜色 -->
+                <TabWidget 
+               android:id="@android:id/tabs"
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom"
+               android:background="#C4E1FF"
+               >
+           </TabWidget>
+           </FrameLayout>    
+       </LinearLayout>
+   </TabHost>

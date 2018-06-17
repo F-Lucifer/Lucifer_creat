@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:id="@+id/publish"  
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pbimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/wu"
+         />
+<Button 
+    android:id="@+id/pbbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="选择照片"
+    android:textColor="#FFFFFF"
+    android:textSize="20px"
+    />
+<EditText
+    android:id="@+id/pbet"
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:ems="10"
+    android:hint="描述一下你的宝贝吧" 
+    
+    />
+
+
+<Button 
+    android:textColor="#FFFFFF"
+    android:textSize="20px"
+    android:id="@+id/confirmtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="确认发布"
+    />
+</LinearLayout>  

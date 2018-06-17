@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="100px"
+    android:text="欢迎注册"
+    android:textColor="#ACC6FF"
+    android:textSize="40px"
+        />
+    <!-- 学号输入框 -->
+<EditText 
+    android:id="@+id/num"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="学号"
+    />
+<!-- 电话输入框 -->
+<EditText 
+    android:id="@+id/phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="联系电话"
+    />
+<!-- 地址输入框 -->
+<EditText 
+    android:id="@+id/address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="地址"
+    />
+   <!-- 用户名输入框 -->
+<EditText 
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="用户名"
+    />
+<!-- 密码输入框 -->
+<EditText 
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="密码"
+    android:password="true"
+    />
+
+<!-- 注册按钮 -->
+<Button 
+    android:id="@+id/registbtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="注册"
+    android:textColor="#FFFFFF"
+    android:textSize="20px"
+    />
+</LinearLayout>

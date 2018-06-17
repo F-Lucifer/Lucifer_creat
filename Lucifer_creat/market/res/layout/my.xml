@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:id="@+id/my"  
+    android:orientation="vertical" >
+<ImageView
+    android:layout_gravity="center"
+     android:id="@+id/image_head"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:src="@drawable/pic6" />
+<Button
+    android:layout_gravity="center"
+     android:id="@+id/cghdbtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="更换头像" 
+     android:textColor="#FFFFFF"
+     android:textSize="20px"/>
+<Button
+    android:textColor="#FFFFFF"
+    android:textSize="20px" 
+    android:id="@+id/mybtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="我的信息"
+    />
+<Button
+    android:textColor="#FFFFFF"
+    android:textSize="20px" 
+    android:id="@+id/mypublishbtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="我发布的"
+    />
+
+<Button 
+    android:textColor="#FFFFFF"
+    android:textSize="20px"
+    android:id="@+id/mys"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="联系开发者"
+    />
+</LinearLayout>  
